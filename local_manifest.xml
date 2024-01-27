@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    
-<remote  name="s" fetch="https://github.com/SwapnilVicky" />
-<remote  name="miui"  fetch="https://gitlab.com/rayavanindra" />
-<remote  name="Joker-V2" fetch="https://gitlab.com/Joker-V2" />
-   
+<remote  name="romgharti"  fetch="https://gitlab.com" />
    
 <!-- Trees --> 
-<project path="device/xiaomi/miatoll" name="platform_device_xiaomi_miatoll" remote="BlissRoms-Devices" revision="universe" />
-<project path="device/xiaomi/sm6250-common" name="platform_device_xiaomi_sm6250-common" remote="BlissRoms-Devices" revision="universe" />
-<project path="vendor/xiaomi/miatoll" name="platform_vendor_xiaomi_miatoll" remote="BlissRoms-Devices" revision="universe" />
-<project path="vendor/xiaomi/sm6250-common" name="platform_vendor_xiaomi_sm6250-common" remote="BlissRoms-Devices" revision="universe" />
-<project path="kernel/xiaomi/sm6250" name="platform_kernel_xiaomi_sm6250" remote="BlissRoms-Devices" revision="universe" />
-<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="BlissRoms-Devices" revision="universe" />
-<project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="lineage" revision="lineage-21" />
-
-<project path="prebuilts/clang/host/linux-x86/clang-r498229" name="prebuilts_clang_host_linux-x86_clang-r498229" remote="Joker-V2" revision="master" />
-   
+<project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="BlissRoms-Devices" revision="bliss-universe" />
+<project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="BlissRoms-Devices" revision="fourteen" />
+<project path="kernel/xiaomi/mojito" name="kernel_xiaomi_mojito" remote="BlissRoms-Devices" revision="inline-rom" />
+<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="BlissRoms-Devices" revision="mojito" />
+<project path="vendor/xiaomi/mojito-leicacamera" name="pnplusplus/android_vendor_xiaomi_mojito-leicacamera" remote="romgharti" revision="main" />
+ 
 </manifest>
 
 
