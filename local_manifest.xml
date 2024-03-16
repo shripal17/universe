@@ -8,7 +8,7 @@
 <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="BlissRoms-Devices" revision="fourteen" />
 <project path="kernel/xiaomi/mojito" name="kernel_xiaomi_mojito" remote="BlissRoms-Devices" revision="inline-rom" />
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="BlissRoms-Devices" revision="mojito" />
-<project path="vendor/xiaomi/mojito-leicacamera" name="pnplusplus/android_vendor_xiaomi_mojito-leicacamera" remote="romgharti" revision="main" />
+<project path="vendor/xiaomi/mojito-leicacamera" name="romgharti/android_vendor_xiaomi_mojito-leicacamera" remote="romgharti" revision="bliss" />
  
 </manifest>
 
