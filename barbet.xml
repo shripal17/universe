@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/google/barbet" name="BlissRoms-Devices/android_device_google_barbet" remote="github" revision="universe" />
+  <project path="device/google/redbull" name="BlissRoms-Devices/android_device_google_redbull" remote="github" revision="universe" />
+  <project path="kernel/google/redbull" name="LineageOS/android_kernel_google_redbull" remote="github" revision="lineage-21" />
+  <project path="vendor/google/barbet" name="BlissRoms-Devices/proprietary_vendor_google_barbet" remote="github" revision="universe" />
+</manifest>
