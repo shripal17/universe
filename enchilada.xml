@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/oneplus/enchilada" remote="BlissRoms-Devices" name="android_device_oneplus_enchilada" revision="universe" />
+  <project path="device/oneplus/sdm845-common" remote="github" name="BlissRoms-Devices/android_device_oneplus_sdm845-common" revision="universe" />
+  <project path="kernel/oneplus/sdm845" remote="github" name="LineageOS/android_kernel_oneplus_sdm845" revision="lineage-21" />
+  <project path="vendor/oneplus/sdm845-common" remote="github" name="TheMuppets/proprietary_vendor_oneplus_sdm845-common" revision="lineage-21" />
+  <project path="vendor/oneplus/enchilada" remote="github" name="TheMuppets/proprietary_vendor_oneplus_enchilada" revision="lineage-21" />
+  <project path="hardware/oneplus" remote="github" name="LineageOS/android_hardware_oneplus" revision="lineage-21" />
+</manifest>
