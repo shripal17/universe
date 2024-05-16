@@ -1,0 +1,8 @@
+{
+  "DEVICE_CODENAME": "enchilada",
+  "BLISSROMS_BRANCH": "universe",
+  "BLISSROMS_BUILD_VARIANT": ["vanilla", "gapps"],
+  "BLISSROMS_BUILDTYPE": "userdebug",
+  "REPO_SYNC": true,
+  "DEVICE_CLEAN": true
+}
