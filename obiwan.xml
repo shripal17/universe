@@ -3,4 +3,5 @@
   <project path="device/asus/obiwan" name="BlissRoms-Devices/android_device_asus_obiwan" remote="github"  revision="universe" />
   <project path="kernel/asus/sm8250" name="BlissRoms-Devices/android_kernel_asus_sm8250" remote="github" revision="universe" />
   <project path="vendor/asus/obiwan" name="BlissRoms-Devices/proprietary_vendor_asus_obiwan" remote="github" revision="universe" />
+  <project path="hardware/dolby" name="android_hardware_dolby" remote="BlissRoms-gitlab" />
 </manifest>
