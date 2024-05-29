@@ -5,5 +5,5 @@
   <project path="kernel/asus/I001D" name="BlissRoms-Devices/android_kernel_asus_I001D" remote="github" revision="universe" />
   <project path="vendor/asus/I001D" name="BlissRoms-Devices/proprietary_vendor_asus_I001D" remote="github" revision="universe" />
   <project path="vendor/asus/sm8150-common" name="BlissRoms-Devices/proprietary_vendor_asus_sm8150-common" remote="github" revision="universe" />
-  <project path="hardware/dolby" name="android_hardware_dolby" remote="BlissRoms-gitlab" />
+  <project path="hardware/dolby" name="android_hardware_dolby" remote="BlissRoms-gitlab" revision="universe-fixed" />
 </manifest>
