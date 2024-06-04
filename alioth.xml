@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote name="gitlab" fetch="https://gitlab.com" />
+    <remote  name="ssh-gitlab"
+           fetch="ssh://git@gitlab.com/BlissLabs/BlissRoms" />
   
   <project path="device/xiaomi/alioth" name="BlissRoms-Devices/android_device_xiaomi_alioth" remote="github"  revision="universe" />
-  <project path="vendor/xiaomi/camera" name="BlissLabs/BlissRoms/vendor_xiaomi_camera" remote="gitlab" revision="aosp-14" />
+  <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera" remote="ssh-gitlab" revision="aosp-14" />
   
 </manifest>
