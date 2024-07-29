@@ -3,6 +3,9 @@
   <remote name="shripal17" fetch="ssh://git@github.com/shripal17"/>
   <remote name="VenturX" fetch="https://github.com/sajadasadollahi83"/>
 
+  <remove-project name="platform/prebuilts/sdk" />
+  <project path="prebuilts/sdk" name="platform_prebuilts_sdk" remote="BlissRoms" />
+
   <project path="device/xiaomi/phoenix" name="device_xiaomi_phoenix" remote="shripal17" revision="universe-qpr3"/>
   <project path="vendor/xiaomi/phoenix" name="android_vendor_xiaomi_phoenix" remote="shripal17" revision="14"/>
   <project path="kernel/xiaomi/phoenix" name="android_kernel_xiaomi_sm6150-1" remote="VenturX" revision="pure-phoenix-new"/>
