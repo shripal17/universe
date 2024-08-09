@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="shripal17" fetch="ssh://git@github.com/shripal17" />
+    <remote name="pulkit" fetch="https://github.com/Pulkit077" />
+
+    <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="shripal17" revision="universe-qpr3" />
+    <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="pulkit" revision="lineage-21" />
+    <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="pulkit" revision="lineage-21" />   
+
+</manifest> 
