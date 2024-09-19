@@ -2,9 +2,10 @@
 <manifest>
     <remote name="shripal17" fetch="ssh://git@github.com/shripal17" />
     <remote name="pulkit" fetch="https://github.com/Pulkit077" />
+    <remote name="GOS-Devices" fetch="https://github.com/GOS-Devices" />
 
     <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="shripal17" revision="universe-qpr3" />
-    <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="pulkit" revision="lineage-21" />
-    <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="pulkit" revision="lineage-21" />   
-
+    <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="shripal17" revision="universe" />
+    <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="pulkit" revision="lineage-21" />
+    <project path="vendor/JamesDSP" name="vendor_JamesDSP" remote="GOS-Devices" revision="utopia-2.0" />
 </manifest> 
