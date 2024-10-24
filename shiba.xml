@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Removed Projects -->
+    <remove-project name="device/google/shusky" />
+    <remove-project name="device/google/gs-common" />
+    <remove-project name="device/google/zuma" />
+
+
+    <!-- Device Trees -->
+    <project name="shripal17/android_device_google_shusky" path="device/google/shusky"
+        remote="github" revision="universe" />
+    <project name="shripal17/android_device_google_gs-common" path="device/google/gs-common"
+        remote="github" revision="universe" />
+    <project name="shripal17/android_device_google_gs101" path="device/google/gs101" remote="github"
+        revision="universe" />
+    <project name="shripal17/android_device_google_zuma" path="device/google/zuma" remote="github"
+        revision="universe" />
+
+    <!-- Vendor Trees -->
+    <project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba"
+        remote="github" revision="RisingOS" />
+
+    <!-- Stock Kernel -->
+    <project name="device/google/shusky-kernel" path="device/google/shusky-kernel" remote="aosp"
+        clone-depth="1" />
+
+    <!-- Pixel Parts -->
+    <project name="Evolution-X-Devices/packages_apps_PixelParts" path="packages/apps/PixelParts"
+        remote="github" revision="udc" />
+
+</manifest>
