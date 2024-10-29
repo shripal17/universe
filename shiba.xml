@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote name="gitlab" fetch="https://gitlab.com/" />
 
     <!-- Removed Projects -->
     <remove-project name="device/google/shusky" />
     <remove-project name="device/google/gs-common" />
     <remove-project name="device/google/zuma" />
 
-
-    <!-- Device Trees -->
+    <!-- Lineage OS Pixel Device Trees -->
     <project name="shripal17/android_device_google_shusky" path="device/google/shusky"
         remote="github" revision="universe" />
     <project name="shripal17/android_device_google_gs-common" path="device/google/gs-common"
@@ -17,16 +17,22 @@
     <project name="shripal17/android_device_google_zuma" path="device/google/zuma" remote="github"
         revision="universe" />
 
-    <!-- Vendor Trees -->
-    <project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba"
-        remote="github" revision="RisingOS" />
+    <!-- Lineage OS Pixel Vendor Trees -->
+    <project name="ionutsandroidbuilds/proprietary_vendor_google_shiba" path="vendor/google/shiba"
+    remote="github" revision="lineage-21" />
 
-    <!-- Stock Kernel -->
     <project name="device/google/shusky-kernel" path="device/google/shusky-kernel" remote="aosp"
         clone-depth="1" />
 
-    <!-- Pixel Parts -->
-    <project name="Evolution-X-Devices/packages_apps_PixelParts" path="packages/apps/PixelParts"
-        remote="github" revision="udc" />
+    <!-- Bliss Pixel vendor framework  -->
+    <!-- <project name="BlissRoms/platform_vendor_pixel-framework" path="vendor/pixel-framework"
+    remote="github" revision="universe-pixel" /> -->
+
+    <project name="shripal17/packages_apps_PixelParts" path="packages/apps/PixelParts"
+        remote="github" revision="universe" />
+
+
+    <project name="Shripal17/vendor_google_camera" path="vendor/google/camera"
+        remote="gitlab" revision="14.0" />
 
 </manifest>
