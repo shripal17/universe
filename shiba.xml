@@ -19,7 +19,7 @@
 
     <!-- Lineage OS Pixel Vendor Trees -->
     <project name="ionutsandroidbuilds/proprietary_vendor_google_shiba" path="vendor/google/shiba"
-    remote="github" revision="lineage-21" />
+    remote="github" revision="14.0" />
 
     <project name="device/google/shusky-kernel" path="device/google/shusky-kernel" remote="aosp"
         clone-depth="1" />
